@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID = '354918387085'
         AWS_REGION = 'us-east-1'
-        ECR_REPO = 'weblight-demo'
+        ECR_REPO = 'my-app'
         IMAGE_NAME = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
         EC2_USER = "ubuntu"
         EC2_HOST = "devops-key95"
